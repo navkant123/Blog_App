@@ -17,6 +17,8 @@ import com.codewithnavkant.blog.services.UserService;
 public class UserServiceImpl implements UserService {
 	@Autowired
 	private UserRepo userRepo;
+	
+	//modelmapper Used for convert the UserDto into User 
 	@Autowired
 	private ModelMapper modelMapper;
 
