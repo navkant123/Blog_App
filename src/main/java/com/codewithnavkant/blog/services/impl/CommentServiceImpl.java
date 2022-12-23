@@ -15,7 +15,7 @@ import com.codewithnavkant.blog.services.CommentService;
 
 @Service
 public class CommentServiceImpl implements CommentService {
-
+//This is a commet service Implimentation
 	@Autowired
 	private PostRepo postRepo;
 	@Autowired
